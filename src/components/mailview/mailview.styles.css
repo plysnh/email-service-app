@@ -1,0 +1,46 @@
+/* Styles for the email view container */
+.email-view {
+    background-color: #fff; 
+    border-left: 3px solid #ddd; 
+    padding: 20px; 
+    overflow-y: auto; 
+    height: calc(100vh - 20px); /* full height minus padding */
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+@media (max-width: 768px) {
+  .email-view {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .email-view {
+    padding: 10px; /* Smaller padding on very small screens */
+  }
+}
+
+/* Styles for email details like subject, from, to, and date */
+.email-details {
+  margin-bottom: 20px; /* spacing between details and content */
+}
+
+.email-details h2 {
+  font-size: 24px; /* larger font size for the subject */
+  margin-bottom: 10px; /* spacing after the subject */
+}
+
+.email-details p {
+  font-size: 16px; 
+  color: #333; 
+  margin-bottom: 5px; /* spacing between detail lines */
+}
+
+/* Styles for the email content */
+.email-content {
+  white-space: pre-wrap; /* respects spaces and line breaks */
+  word-wrap: break-word; /* ensures long words do not overflow */
+  font-size: 14px; /* font size for the email content */
+  color: #555; /* slightly lighter text color for the content */
+}

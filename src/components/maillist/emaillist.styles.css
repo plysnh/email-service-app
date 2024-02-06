@@ -1,0 +1,32 @@
+/* Styles for READ + UNREAD email items */
+.email-item.read {
+    background-color: #f8f8f8;
+  }
+  
+.email-item.unread {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+/* Styles for the selected email item */
+.email-item.active {
+  background-color: #a5cada;
+  color: white;
+}
+.email-item.read.active {
+  background-color: #a5cada;
+  color: white;
+}
+
+/* Styles for the email list */
+.email-list {
+  overflow-y: auto;
+}
+
+/* Styles for each email in the list */
+.email-item {
+  padding: 15px;
+  border-bottom: 1px solid #d7c9c9;
+  cursor: pointer;
+}
+

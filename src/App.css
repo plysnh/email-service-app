@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  font-family: 'Arial', sans-serif;
+
+}
+/* General styles to reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the sidebar */
+.sidebar {
+  width: 25%;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.folder-icon {
+  background-color: pink;  
+  color: white;            
+  padding: 10px;          
+  cursor: pointer;         /* Cursor changes to pointer to indicate it's clickable */
+  border-bottom: 1px solid #ccc; 
+  text-align: center;     
+  font-weight: bold;       
+}
+
+.folder-icon.active {
+  background-color: #ff85a2; /* Slightly darker pink on hover for visual feedback */
+}
+
+/* Active folder style */
+.active-folder {
+  background-color: #f0f0f0;
+}
+
+
+
+
